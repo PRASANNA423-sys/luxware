@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection | LuxeTime</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css"> <!-- Reusing product card styles -->
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">LUXE<span>TIME</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Collection</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Exclusive Collection</h1>
+            <p>Explore our wide range of premium watches, from classic designs to modern innovations.</p>
+        </div>
+    </div>
+
+    <section class="container products-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="filter-group">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Men's Watches <span>(12)</span></a></li>
+                    <li><a href="#">Women's Watches <span>(8)</span></a></li>
+                    <li><a href="#">Smart Watches <span>(5)</span></a></li>
+                    <li><a href="#">Limited Edition <span>(3)</span></a></li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <ul>
+                    <li><a href="#">Under $200 <span>(4)</span></a></li>
+                    <li><a href="#">$200 - $500 <span>(10)</span></a></li>
+                    <li><a href="#">$500 - $1500 <span>(8)</span></a></li>
+                    <li><a href="#">$1500+ <span>(6)</span></a></li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h3>Brands</h3>
+                <ul>
+                    <li><a href="#">Rolex</a></li>
+                    <li><a href="#">Omega</a></li>
+                    <li><a href="#">Tag Heuer</a></li>
+                    <li><a href="#">Patek Philippe</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <div class="products-wrapper">
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=600&q=80"
+                            alt="Royal Oak" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>The Royal Oak</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="price">$1,250.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=600&q=80"
+                            alt="Chronograph" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>Silver Chronograph</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="price">$895.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=600&q=80"
+                            alt="Minimalist Black" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>Minimalist Black</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <span class="price">$450.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1623861571583-05b1c51d6556?auto=format&fit=crop&w=600&q=80"
+                            alt="Gold Edition" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gold Edition</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="price">$2,500.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1595935736128-db1f0a261943?auto=format&fit=crop&w=600&q=80"
+                            alt="Classic Leather" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Leather</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <span class="price">$350.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80"
+                            alt="Smart Sport" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Sport</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                        </div>
+                        <span class="price">$199.00</span>
+                        <a href="product-details.html" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About LuxeTime</h3>
+                    <p>We provide the finest selection of luxury timepieces, crafted with precision and elegance for the
+                        modern individual.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- ... other cols ... -->
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 LuxeTime Watches. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
